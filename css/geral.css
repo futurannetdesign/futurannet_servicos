@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-primary:#020817;
+  --bg-card:#030712;
+  --color:#FFF;
+  --menu-hover:#101828;
+  --h2-color:#f8fafc;
+  --p-color:#94a3b8;
+}
+html {
+  background-color: var(--bg-primary);
+  color: var(--color);
+  font-family: "Poppins", serif;
+  font-size: 62.5%;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 110rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
