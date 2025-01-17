@@ -1,0 +1,40 @@
+.main {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.main-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+.main-img img {
+  display: block;
+  width: 100%;
+  height: 14rem;
+}
+.main-links ul {
+ display: flex;
+ flex-direction: column;
+ gap: 0.8rem;
+ justify-content: center;
+ align-items: center;
+}
+.main-links a {
+  color: #94a3b8;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  margin-left: 0.4rem;
+  transition: 0.5s;
+}
+.main-links a:hover {
+  border-radius: 5px;
+  background-color: var(--menu-hover);
+}
+.main-links i {
+  color: #FF5574;
+  font-size: 1.4rem;
+}

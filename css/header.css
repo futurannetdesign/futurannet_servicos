@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.header-nav-links li {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.header-nav-links a {
+  padding: 5px 10px;
+}
+.header-nav-links a:hover {
+  border-radius: 5px;
+  background-color: var(--menu-hover);
+  scale: 1.2;
+}
+.header-nav-links li a {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: 0.5s;
+}
+
+
